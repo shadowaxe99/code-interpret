@@ -1,5 +1,5 @@
-from agentgpt_handler import AgentGPT
-from e2b_handler import E2B
+from AgentGPT.agentgpt_handler import AgentGPT
+from e2b.e2b_handler import E2B
 from communication_manager import Communication
 from error_handler import ErrorHandling
 from file_analyzer import FileAnalyzer
