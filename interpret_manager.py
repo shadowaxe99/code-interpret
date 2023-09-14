@@ -1,10 +1,10 @@
-from AgentGPT.agentgpt_handler import AgentGPT
-from e2b.e2b_handler import E2B
-from communication_manager import Communication
-from error_handler import ErrorHandling
-from file_analyzer import FileAnalyzer
-from gpt3_integration import GPT3Integration
-from web_updater import WebUpdater
+from interpret_agentgpt import AgentGPT
+from interpret_e2b import E2B
+from interpret_communication import Communication
+from interpret_error import ErrorHandling
+from interpret_analyzer import FileAnalyzer
+from interpret_gpt3 import GPT3Integration
+from interpret_web import WebUpdater
 
 class AgentManager:
     def __init__(self):
